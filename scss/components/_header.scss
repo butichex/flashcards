@@ -1,0 +1,28 @@
+.header {
+    height: rem(120);
+
+    &__inner {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        fill: white;
+        height: rem(200);
+        width: rem(200);
+    }
+
+}
+
+
+
+
+.level-duration {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
